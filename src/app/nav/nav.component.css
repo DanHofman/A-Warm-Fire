@@ -1,0 +1,40 @@
+.main {
+    background-color: dodgerblue;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+}
+h3 {
+    display: inline-block;
+    font-family: 'Bitter', serif;
+}
+.glyphicon-fire {
+    color: darkorange;
+    padding: 0 20px 0 10px;
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 30px;
+}
+.glyphicon-fire:hover {
+    animation: flame 5s infinite;
+}
+
+@keyframes flame {
+    0% {
+        transform: scaleX(1);
+        color: darkorange;
+ 
+    }
+    50% {
+        transform: scaleX(-1);
+        color: blue;
+        border-bottom: 1px solid lightskyblue;
+    }
+
+    100% {
+        transform: scaleX(1);
+        color: darkorange;
+        
+    }
+}
