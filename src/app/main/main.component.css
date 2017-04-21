@@ -71,8 +71,16 @@ h1 {
         /*transform: translateX(-20%);*/
         margin-left: -10%;
     }
-    100% {
+    50% {
         /*transform: translateX(800px);*/
         margin-left: 50%;
+    }
+    70% {
+        margin-left: 50%;
+        opacity: 1;
+    }
+    100% {
+        margin-left: 98%;
+        opacity: 0;
     }
 }
