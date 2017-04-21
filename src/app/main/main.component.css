@@ -28,7 +28,6 @@ h1 {
     margin-top: 0;
     color: white;
     z-index: 0;
-
 }
 
 /*.mainImage:hover {
@@ -69,9 +68,11 @@ h1 {
 
 @keyframes drive {
     0% {
-        transform: translateX(-100px);
+        /*transform: translateX(-20%);*/
+        margin-left: -10%;
     }
     100% {
-        transform: translateX(800px);
+        /*transform: translateX(800px);*/
+        margin-left: 50%;
     }
 }
