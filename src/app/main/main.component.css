@@ -11,7 +11,7 @@ h1:hover {
     color: darkorange;
     transition: all 3s ease-in;
     text-decoration: underline;
-    text-decoration-style: darkorange;
+    text-decoration-color: orangered;
 }
 .mainImage {
     background-image: url('../../assets/coldDesert.jpg');
