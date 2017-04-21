@@ -1,27 +1,77 @@
 h1 {
     color: white;
     text-align: center;
-    padding: 20% 0 30% 0;
+    padding: 18% 0  0;
     margin: 0;
     font-family: 'Bitter', serif;
     transition: all 3s ease-in;
+    animation: flicker 6s 2s forwards; 
 }
 
-h1:hover {
-    color: darkorange;
-    transition: all 3s ease-in;
-    text-decoration: underline;
-    text-decoration-color: orangered;
+.row {
+    background-color: gainsboro;
+    z-index: -1;
+}
+#rv {
+    height: 25px;
+    margin-top: 1.5%;
+    width: 40px;
+    margin-bottom: 25%;
+    animation: drive 10s  forwards;
 }
 .mainImage {
+    opacity: 0.7;
     background-image: url('../../assets/coldDesert.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
     margin-top: 0;
     color: white;
+    z-index: 0;
+
 }
+
+/*.mainImage:hover {
+    transition: background-image 7s 2s;
+    background-image: url('../../assets/lighting.jpg');
+}*/
+
 :host {
     display: block;
     box-sizing: content-box;
+}
+
+@keyframes flicker {
+    0% { 
+        color: white;
+    }
+    80% {
+        color: darkorange;
+        /*text-decoration: underline;
+        text-decoration-color: orangered;*/
+    }
+    82% {
+        color: white;
+        /*text-decoration: underline;
+        text-decoration-color: white;*/
+    }
+    92% {
+        color: cadetblue;
+        /*text-decoration: underline;
+        text-decoration-color: cadetblue;*/
+    }
+    100% {
+        color: orangered;
+        /*text-decoration: underline;
+        text-decoration-color: red;*/
+    }
+}
+
+@keyframes drive {
+    0% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateX(800px);
+    }
 }
