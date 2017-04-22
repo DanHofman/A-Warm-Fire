@@ -2,6 +2,7 @@
     background-color: dodgerblue;
     color: white;
     margin: 0px;
+    overflow: auto;
     /*text-align: center;*/
 }
 h3 {
@@ -33,7 +34,7 @@ a:hover {
     color: darkslateblue;
     transition: color 0.3s;
 }
-#story {
+#Contact {
     margin-right: 20px;
 }
 

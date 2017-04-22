@@ -1,0 +1,52 @@
+:host {
+    display: block;
+    font-family: 'Bitter', serif;
+    background: lightskyblue;
+}
+h1, h2, h3, h4 {
+    text-align: center;
+    color: midnightblue
+}
+h1, h4 {
+    font-weight: bolder;
+}
+h1 {
+    padding-top: 20px;
+}
+.links {
+    margin: 0 auto;
+    text-align: center;
+}
+h3 {
+    font-size: 18px;
+}
+h4{
+    font-size: 22px;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+a {
+    display: inline-block;
+}
+.middleSection {
+    background: lightcyan;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.storySection {
+    margin: 0 20%;
+}
+.storySection p {
+    font-size: 21px;
+    color: midnightblue;
+    font-family: 'Sanchez', serif;
+    text-indent: 50px;
+    margin: 0 20px 7px 20px;
+}
+hr {
+    border: 1.5px solid darkorange;
+}
+#theEnd {
+    padding-bottom: 3%;
+}

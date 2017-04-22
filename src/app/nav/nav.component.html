@@ -2,8 +2,9 @@
   <h3>A Warm Fire</h3><span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
   <!--<i class="fa fa-fire fa-3x" aria-hidden="true"></i>-->
   <div class="tabs">
-    <a href='#'><h4>About</h4></a>
-    <a href='#'><h4>Story</h4></a>
-    <a href='#'><h4 id="story">Contact</h4></a>
+    <a [routerLink]="['']"><h4>Home</h4></a>
+    <a [routerLink]="['story']"><h4>Story</h4></a>
+    <a [routerLink]="['about']"><h4>About</h4></a>
+    <a [routerLink]="['contact']"><h4 id="Contact">Contact</h4></a>
   </div>
 </div>
