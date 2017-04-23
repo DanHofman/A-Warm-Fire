@@ -25,6 +25,15 @@ h4{
     margin-right: 10px;
     padding-top: 5px;
 }
+.top {
+
+}
+
+.partLabel {
+    display: inline-block;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
 a {
     display: inline-block;
 }
@@ -44,9 +53,18 @@ a {
     text-indent: 50px;
     margin: 0 20px 7px 20px;
 }
-hr {
+#topLine  {
     border: 1.5px solid darkorange;
+}
+.topLine {
+    border: 1.0px solid darkorange;
+    width: 70%;
 }
 #theEnd {
     padding-bottom: 3%;
+    cursor: pointer;
+}
+#theEnd:hover {
+    color: orangered;
+    transition: color .2s;
 }

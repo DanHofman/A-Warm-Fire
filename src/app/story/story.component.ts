@@ -23,5 +23,9 @@ import {
 })
 export class StoryComponent  {
   loaded: string = "loaded";
+  
+  goTo(location: string) {
+    window.location.hash = location;
+  }
 
 }
